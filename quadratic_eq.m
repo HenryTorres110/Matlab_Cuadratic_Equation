@@ -11,6 +11,8 @@ c = str2double(input("Coeficiente c: ", "s"));
 
 root_1 = 0;
 root_2 = 0;
+i1 = 0;
+i2 = 0;
 
 if (a == 0)
     if (b ~= 0)
@@ -24,8 +26,6 @@ else
     if discr >= 0
         root_1 = (-b + sqrt(discr)) / (2 * a);
         root_2 = (-b - sqrt(discr)) / (2 * a);
-        i1 = 0;
-        i2 = 0;
     else
         root_1 = -b/(2 * a);
         root_2 = root_1; 
